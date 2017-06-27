@@ -268,22 +268,129 @@ h4 {
 		padding: 0 2%;
 	}
 
+	.container {
+		padding: 0 2%;
+	}
+
+	.pageLinks {
+		padding-right: 12px;
+	}
+
 	#aboutMe, #portfolio, #contact {
 		width: 100%;
 	}
 
 	#profilePic {
-		width: 100%;
+		width: 50%;
+		padding-right: 20px;
+		padding-bottom: 0;
 	}
 
 	#connect {
 		position: relative;
-  	bottom: 100px;
-  	right: 15%;
   	padding: 2%;
+  	left: 0;
+  	top: 0;
+  	margin-top: 50px;
+	}
+
+	.portfolioPics {
+		width: 50%;
+		padding: 3%;
+	}
+
+	h4 {
+		width: 40.5%;
+	}
+
+	#hangman {
+ 		top: 27%;
+ 		left: 2.3%;
+	}
+
+	#rpgGame {
+		top: 27%;
+		left: 48.25%;
+	}
+
+	#triviaGame {
+		top: 55.5%;
+		left: 2.3%;
+	}
+
+	#rutgers {
+		top: 55.5%;
+		left: 48.25%;
+	}
+
+	#rps {
+		top: 84.5%;
+		left: 2.3%;
 	}
 }
 
 @media screen and (max-width: 640px) {
+	.boxHeader {
+		position: relative;
+		height: auto;
+	}
 
+	header {
+		padding: 0;
+	}
+
+	h1 {
+		width: 100%;
+		text-align: center;
+	}
+
+	.pageLinks {
+		padding: 20px 0;
+		width: 100%;
+		text-align: center;
+		border-bottom: 2px solid #cccccc;
+		margin-bottom: 10px
+	}
+
+	#profilePic {
+		width: 100%;
+		padding-right: 0; 
+		padding-bottom: 20px;
+	}
+
+	.bottom {
+		position: relative;
+	}
+
+		.portfolioPics {
+		width: 100%;
+	}
+
+	h4 {
+		font-size: 20px;
+		width: 86.5%;
+		margin: 4.5%;
+	}
+
+	#hangman {
+ 		top: 18.5%;
+	}
+
+	#rpgGame {
+		top: 37.5%;
+		left: 2.2%;
+	}
+
+	#triviaGame {
+		top: 56.5%;
+	}
+
+	#rutgers {
+		top: 75.5%;
+		left: 2.2%;
+	}
+
+	#rps {
+		top: 94.5%
+	}
 }
