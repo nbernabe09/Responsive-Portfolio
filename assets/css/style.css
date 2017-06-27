@@ -1,0 +1,289 @@
+* {
+  box-sizing: border-box;
+}
+
+a:link {
+	color: #777777;
+}
+
+hr {
+	margin: 20px 0;
+}
+
+body {
+	color: #777777;
+	background-image: url(../images/bg.png);
+	background-attachment: fixed;
+}
+
+.boxHeader {
+	z-index: 100;
+  position: fixed;
+  width: 100%;
+  background: #ffffff;
+  border-bottom: 2px solid #cccccc;
+}
+
+header {
+	size: 500px;
+	background-color: #ffffff;
+	padding: 0 10%;
+}
+
+h1 {
+	font-family: "Georgia", Times, Times New Roman, serif;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	background-color: #4aaaa5;
+	float: left;
+	padding: 25px;
+}
+
+.pageLinks {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	float: right;
+	padding: 32px 0;
+	padding-right: 10%;
+}
+
+.pageLinks a {
+	color: #777777;
+	text-decoration: none;
+}
+
+#space {
+	height: 100px;
+}
+
+.container {
+	padding: 0 10%;
+	clear: both;
+}
+
+h2 {
+	font-family: "Georgia", Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#aboutMe {
+  /*position: relative;*/
+  width: 60%;
+  background: #ffffff;
+  border: 2px solid #cccccc;
+  padding: 2%;
+  /*clear: both;*/
+}
+
+p {
+	line-height: 1.5;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+
+#profilePic {
+	float: left;
+	padding-right: 20px;
+	clear: both;
+}
+
+#bio {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+h3 {
+	font-family: "Georgia", Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#connect {
+	z-index: 99;
+  position: fixed;
+  top: 100px;
+  right: 15%;
+  background: #ffffff;
+  border: 2px solid #cccccc;
+  padding: 2%;
+}
+
+footer {
+	z-index: 99;
+	background-color: #666666;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	text-align: center;
+	padding: 30px 0;
+	border-top: 10px solid #4aaaa5;
+	clear: both;
+}
+
+.bottom {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%
+}
+
+#contact {
+  position: relative;
+  width: 60%;
+  background: #ffffff;
+  border: 2px solid #cccccc;
+  padding: 2%;
+  clear: both;	
+}
+
+input {
+	width: 100%;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+
+#message {
+	min-height: 100px;
+	min-width: 100%;
+	max-width: 100%;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+
+#submit {
+	margin-top: 10px;
+	padding: 10px;
+	width: 100px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	border-width: 0
+}
+
+#portfolio {
+  position: relative;
+  width: 60%;
+  background: #ffffff;
+  border: 2px solid #cccccc;
+  padding: 2%;
+  clear: both;
+}
+
+.portfolioPics {
+	width: 50%;
+	float: left;
+	padding: 5%;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+h4 {
+	position: absolute;
+	z-index: 2;
+	font-family: "Georgia", Times, Times New Roman, serif;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width: 37.38%;
+	margin: 4.6%;
+	text-align: center;
+	padding: 15px 0;
+}
+
+#hangman {
+ top: 26%;
+}
+
+#rpgGame {
+	top: 26%;
+	left: 50.1%;
+}
+
+#triviaGame {
+	top: 55%;
+}
+
+#rutgers {
+	top: 55%;
+	left: 50.1%;
+}
+
+#rps {
+	top: 84%
+}
+
+@media screen and (max-width: 980px) {
+	#aboutMe, #portfolio, #contact {
+		padding: 4%;
+	}
+
+	#profilePic {
+		width: 100%;
+		padding-bottom: 10px;
+		padding-right: 0;
+	}
+
+	#bio {
+		line-height: 2;
+	}
+
+	.portfolioPics {
+		width: 100%;
+	}
+
+	h4 {
+		font-size: 20px;
+		width: 77.75%;
+		margin: 4.5%;
+	}
+
+	#hangman {
+ 		top: 18.5%;
+	}
+
+	#rpgGame {
+		top: 37%;
+		left: 6.67%;
+	}
+
+	#triviaGame {
+		top: 55.5%;
+	}
+
+	#rutgers {
+		top: 74%;
+		left: 6.67%;
+	}
+
+	#rps {
+		top: 92.4%
+	}
+}
+
+@media screen and (max-width: 768px) {
+	header {
+		padding: 0 2%;
+	}
+
+	#aboutMe, #portfolio, #contact {
+		width: 100%;
+	}
+
+	#profilePic {
+		width: 100%;
+	}
+
+	#connect {
+		position: relative;
+  	bottom: 100px;
+  	right: 15%;
+  	padding: 2%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+
+}
